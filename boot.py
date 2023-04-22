@@ -4,7 +4,8 @@
  LED = machine.Pin(13,machine.Pin.OUT)
  
  for i in range(100):
-     LED.value(4)
+     LED.on()
      time.sleep()
-     LED.value(4)
-     time.sleep(1)
+     LED.off()
+     time.sleep()
+#Trial two
